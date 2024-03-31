@@ -1,0 +1,10 @@
+ figure;
+%ha1=axes;
+ha1=subplot(2,1,1);
+xlim([1 binpackCap]);
+ylim([1 size(p1,2)]);
+plot([1 p1.ca 1]);
+set(ha1,'NextPlot','add');
+ht=title(ha1,'Bin Packs');
+ha2=subplot(2,1,2);
+drawnow;
